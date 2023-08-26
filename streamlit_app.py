@@ -17,7 +17,7 @@ load_dotenv()
 
 # Set streamlit page configuration
 st.set_page_config(page_title="ChatBot Starter")
-st.title("ChatBot Starter")
+st.title("GPT-4 [Per Diem]")
 
 # Initialize session state variables
 if 'generated' not in st.session_state:
@@ -107,4 +107,4 @@ if st.session_state['generated']:
 # Add credit
 st.markdown("""
 ---
-Made with 🤖 by [Austin Johnson](https://github.com/AustonianAI)""")
+Running on Streamlit""")
